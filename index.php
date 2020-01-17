@@ -4,7 +4,7 @@
     </head>
     <body>
         <video height="300" id="localVideo">
-          <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>
+          <source src="https://www.radiantmediaplayer.com/media/bbb-360p.mp4" type=video/mp4>
         </video>
         <!-- <div id="remotesVideos"></div> -->
     </body>
