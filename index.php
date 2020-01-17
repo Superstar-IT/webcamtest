@@ -23,13 +23,13 @@
   webrtc.on('readyToCall', function () {
     // you can name it anything
     webrtc.joinRoom('roam');
-    $('#localVideo').click();
+    // $('#localVideo').click();
   });
   
-  $(document).ready(function(){
-    document.addEventListener('click', event => {
-      const video = document.getElementById('localVideo');
-      video.play();
-    });
-  });
+  // $(document).ready(function(){
+  //   document.addEventListener('click', event => {
+  //     const video = document.getElementById('localVideo');
+  //     video.play();
+  //   });
+  // });
 </script>
