@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <script src="js/latest-v2.js"></script> 
+        <script src="<?php echo base_url() ?>assets/js/latest-v2.js"></script> 
     </head>
     <body>
-        <video height="300" id="localVideo"></video>
+        <video height="300" id="localVideo" preload="auto"></video>
         <!-- <div id="remotesVideos"></div> -->
     </body>
 </html>
